@@ -9,13 +9,13 @@ body{
     font-weight: 900;
 }
 header{
-    
     margin-bottom: 30px;
+    position: relative;
 }
 h1{
     display: inline;
-    
-
+    font-size: 50px;
+    position: absolute;
 }
 .firstdiv{
     margin-bottom: 10px;
@@ -23,13 +23,6 @@ h1{
 ul{
     list-style: none;
 }
-/* .white{
-    height: 60px;
-    background-color: aqua;
-    padding-top: 10px;
-    padding-bottom: 10px;
-     
-} */
 .bgwhite{
     background-color: white;
 }
@@ -87,8 +80,7 @@ span{
     border: solid 1px ;
     text-align: center;
     padding-top: 1px;
-    color: green;
-    
+    color: green;   
 }
 .cross{
     color: red;
